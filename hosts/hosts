@@ -1,0 +1,6 @@
+[hostnames]
+hostname1
+hostname2
+
+[hostname:vars]
+user_name=Dev_User ="Developer"
