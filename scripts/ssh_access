@@ -1,0 +1,7 @@
+hosts: hostnames
+    gather_facts: False
+    remote_user: dev-user
+    become: true
+    become_user: root
+    roles:
+      - ssh-access
